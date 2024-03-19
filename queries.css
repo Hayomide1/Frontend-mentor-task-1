@@ -1,0 +1,135 @@
+@media (max-width: 89.4em) {
+  .header1 {
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 83.63em) {
+  .header1 {
+    font-size: 5rem;
+  }
+  .card-num {
+    font-size: 3rem;
+  }
+  .card-head {
+    font-size: 1.6rem;
+  }
+  .card-para {
+    font-size: 1.4rem;
+  }
+  .card-img {
+    max-width: 10rem;
+  }
+}
+@media (max-width: 82em) {
+  .header1 {
+    font-size: 4.5rem;
+  }
+  .second-side {
+    max-width: 35rem;
+  }
+  .head-para {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 78.75em) {
+  .links {
+    font-size: 1.6rem;
+  }
+  .second-head {
+    font-size: 3rem;
+  }
+  .third-head {
+    font-size: 1.8rem;
+  }
+  .third-para {
+    font-size: 1.4rem;
+  }
+  .img-cards {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 78.125em) {
+  .header1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 76.625em) {
+  .sect-body {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .main-img {
+    max-width: 101.5rem;
+  }
+}
+@media (max-width: 59em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+
+  .links {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 4.8rem;
+    /* transition: all 0.5s; */
+    pointer-events: none;
+    /* visibility: hidden; */
+    transition: 0.7s all ease-in-out;
+  }
+
+  .show {
+    right: 0;
+  }
+
+  .nav-show {
+    display: block;
+  }
+
+  .nav-hide {
+    display: none;
+  }
+
+  .nav-open .links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  /* .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  } */
+  /* .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  } */
+
+  .link a:link,
+  a:visited {
+    color: #333;
+  }
+}
+@media (max-width: 50em) {
+  .sect-body {
+    flex-direction: column;
+    align-items: left;
+  }
+  .main-text {
+    flex-direction: column;
+    align-items: left;
+  }
+  .container {
+    padding: 5rem 2rem;
+  }
+  .second-side {
+    max-width: 100%;
+    /* width: 100%; */
+  }
+}
